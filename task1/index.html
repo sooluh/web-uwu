@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+        Name    : Suluh Sulistiawan
+        NIM     : 211351143
+        Class   : IF Malam B '21
+    -->
+
+    <title>Tugas 1</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="9">
+                <img src="https://www.w3schools.com/html/img_chania.jpg" />
+            </td>
+            <td colspan="3">
+                <h1>Input data pendaftaran</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="password" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Jenis Kelamin</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Laki-Laki</label>
+                <br />
+                <input type="radio" name="gender" id="female">
+                <label for="female">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Tangal Lahir</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="date" name="dob" id="dob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hobby">Hobby</label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="hobby" id="hobby">
+                    <option value="sport">Olah Raga</option>
+                    <option value="fishing">Memancing</option>
+                    <option value="read">Membaca</option>
+                    <option value="sleep">Tidur</option>
+                    <option value="eat">Makan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="vehicle">Kendaraan yang dimiliki</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="vehicle" id="bicycle">
+                Sepeda
+                <br />
+                <input type="checkbox" name="vehicle" id="motorcycle">
+                Motor
+                <br />
+                <input type="checkbox" name="vehicle" id="car">
+                Mobil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="message">Pesan dan kesan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <textarea name="message" id="message" cols="45" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <button>Login</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
