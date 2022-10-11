@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        tr {
+            height: 20px;
+            color: #000d82;
+            font-size: larger;
+        }
+
+        .kotak {
+            border: 5px solid #000d82;
+            width: 400px;
+            padding: 10px;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        .kotak2 {
+            border: 5px solid #000d82;
+            width: auto;
+            padding: 10px;
+            border-radius: 20px;
+            margin: auto;
+        }
+
+        .kotakjudul {
+            border-radius: 15px;
+            height: 70px;
+            width: auto;
+            background-color: #95cde8;
+            text-align: center;
+            font-weight: bold;
+            color: #000d82;
+            font-family: Verdana;
+            padding: 15px 32px;
+        }
+
+        button {
+            align-self: center;
+            background-color: #0000f5;
+            border: 2px solid #0000f5;
+            border-radius: 15px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: #000d82;
+            border: 2px solid #0000f5;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak">
+        <div class="kotak2">
+            <form action="#">
+                <table style="width: 100%;">
+                    <tr>
+                        <td colspan="3" style="font-size: 25px;">
+                            <div class="kotakjudul">Input Data Pendaftaran</div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">E-mail</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="email" id="email">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="pass">Password</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="password" id="password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">
+                            <label for="gender">Jenis Kelamin</label>
+                        </td>
+                        <td rowspan="2">:</td>
+                        <td>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Laki-Laki</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Perempuan</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="dob">Tanggal Lahir</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <input type="date" name="dob" id="dob">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="hobby">Hobby</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <select name="hobby" id="hobby">
+                                <option value="sport">Olah Raga</option>
+                                <option value="fishing">Memancing</option>
+                                <option value="read">Membaca</option>
+                                <option value="sleep">Tidur</option>
+                                <option value="eat">Makan</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3">
+                            <label for="vehicle">Kendaraan yang dimiliki</label>
+                        </td>
+                        <td rowspan="3">:</td>
+                        <td>
+                            <input type="checkbox" name="vehicle" id="bicycle">
+                            <label for="bicycle">Sepeda</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="vehicle" id="motorcycle">
+                            <label for="motorcycle">Motor</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="vehicle" id="car">
+                            <label for="car">Mobil</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="pesan">Pesan dan Kesan</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="pesan" id="pesan" cols="30" rows="3"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" align="center"><button type="button">Simpan Data</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

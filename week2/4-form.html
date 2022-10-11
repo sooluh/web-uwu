@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan 4 - Form</title>
+</head>
+
+<body>
+    <form action="penerima.html" method="GET">
+        <label for="nama">Name:</label>
+        <input type="text" name="nama" id="nama">
+        <br>
+
+        <hr>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+
+        <hr>
+
+        <input type="radio" name="fav_language" id="html" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" name="fav_language" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" name="fav_language" id="javascript" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <hr>
+
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label>
+        <br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label>
+        <br>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+        <hr>
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <hr>
+
+        <texarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+        </texarea>
+
+        <hr>
+
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        <br>
+        <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
