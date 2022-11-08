@@ -1,0 +1,14 @@
+img.logo {
+    max-width: 250px;
+    width: 100%;
+}
+
+#header h2:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: calc(1.375rem + 1.5vw);
+    }
+}
